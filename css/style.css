@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lobster&family=Marck+Script&family=Water+Brush&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat';
+
+}
+
+.topbar 
+{
+    background-color: rgba(86, 87, 84, 0.918);
+    color: white;
+    height: 50px;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.details
+{
+    float: left;
+    margin-left: 50px;
+}
+.details li  svg
+{
+    width: 15px;
+}
+.social 
+{
+    float: right;
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+.header
+{
+ background-image: url('../img/header\ bg.png');
+position: relative;
+background-size: cover;
+    height: 936px;
+}
+.navbar-brand img
+{
+    margin-left: 45px;
+}
+
+.searchbar input
+{
+    border-radius: 15px;
+    width: 156px;
+    height: 43px;
+    padding: 10px;
+    background-color: #b2b2b2;
+ border: none;
+ position: relative;
+ }
+
+.searchbar a
+{
+    padding: 0;
+    position: absolute;
+    right: 39px;
+    bottom: 50px;
+    color: #424040;
+    font-size: 23px;
+}
+.navbar li
+{
+    list-style: none;
+    padding-right: 15px;
+}
+.nav-item a
+{
+    color: white;
+     font-weight: 700;
+
+}
+a.nav-link
+{
+    padding-right: 150px;
+}
+.header-text h1
+{
+    font-family: 'Marck Script';
+    color: whitesmoke;
+    font-size: 110px;
+    font-weight: 200;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+.header-text h3
+{
+    color: white;
+    font-style: italic;
+    padding-top: 25px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+.button-1
+{
+    width: 190px;
+    border-radius: 25px;
+    height: 45px;
+    font-weight: bold;
+    margin-top: 47px;
+    margin-left: 63px;
+}
+.header-text p{
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 36px;
+    margin-left: 63px;
+}
+.header-image
+{
+    margin-top: 130px;
+}
+.header-leaf
+{
+    position: absolute;
+    margin-left: 802px;
+    margin-top: -137px;
+}
+.b-text h1
+{
+    text-align: center;
+    margin-top: 58px;
+    font-size: 90px;
+    font-family: math;
+}
+.b-text p
+{
+    text-align: center;
+    padding-top: 14px;
+    font-family: monospace;
+    padding-bottom: 25px;
+}
+.b-image h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+.b-image p
+{
+    text-align: center;
+    margin-top: 13px;
+    font-size: 20px;
+}
+.b-image
+{
+    text-align: center;
+}
+.button-2
+{
+    width: 180px;
+    text-align: center;
+    border-radius: 17px;
+    height: 40px;
+    margin-left: 618px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    margin-bottom: 40px;
+}
+.button-2 a
+{
+    color: white;
+}
+.info
+{
+    background-color: black;
+    background-size: cover;
+}
+.info h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 110px;
+    font-family: 'Marck Script';
+}
+.info-text
+{
+    color: white;
+    margin-top: 60px;
+}
+
+.button-3
+{
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 44px;
+    border: none;
+    width: 190px;
+    border-radius: 29px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.button-3 a
+{
+    color: grey;
+    font-weight: bold;
+}
+.f-image
+{
+margin-top: 55px;
+
+}
+.f-info
+{
+    margin-left: 81px;
+    margin-top: 140px;
+}
+.f-info h1
+{
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.f-info p
+{
+    font-family: inherit;
+    font-size: 20px;
+    padding-right: 70px;
+}
+.button-4
+{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 44px;
+    border-radius: 20px;
+    margin-top: 35px;
+
+}
+.button-4 a
+{
+font-weight: bold;
+
+}
+.black
+{
+    background-image: url(../img/varient-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 1018px;
+}
+
+.pizza 
+{
+    color: white;
+}
+.pizza h1
+{
+    font-family: 'Marck Script';
+    text-align: center;
+    margin-top: 120px;
+    font-size: 75px;
+}
+
+.pizza p
+{
+    text-align: center;
+    margin-top: 21px;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.pizza img
+{
+    margin-left: 130px;
+    margin-top: 20px;
+
+}
+.pizza-leaf
+{
+    margin-top: -1323px;
+    position: absolute;
+    margin-left: 62px;
+
+}
+
+.f-pizza
+{
+    margin-top: 135px;
+text-align: center;
+}
+.f-pizza h3
+{
+    font-family: 'Marck Script';
+    font-size: 50px;
+}
+.f-pizza p 
+{
+    margin-bottom: 135px;
+}
+.f-pizza-text
+{
+ font-size: 25px;   
+}
+.subscription
+{
+    background-color: #272932;
+    color: white;
+    height: 600px;
+}
+.blockquote-footer
+{
+    font-size: 15px;
+}
+.subsrcibe-text h1
+{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Marck Script';
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.subsrcibe-text p
+{
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 52px;
+}
+.email-text input
+{
+    width: 395px;
+    border: none;
+    height: 47px;
+    border-radius: 20px;
+    margin-left: 295px;
+    padding: 20px;
+    position: relative;
+    margin-top: 43px;
+    margin-bottom: 100px;
+}
+.button-5
+{
+    background-color: rgb(80 76 76);
+    color: white;
+    border: none;
+    width: 145px;
+    height: 48px;
+    margin-left: 645px;
+    border-radius: 20px;
+    position: absolute;
+    top: 390px;
+    left: 10px;
+}
+
+.button-5 a
+{
+    color: white;
+}
+.pizza-leaf2
+{
+    position: absolute;
+    top: 677px;
+}
+
+.Title
+{
+    margin-top: 200px;
+}
+.Title h3
+{
+    font-size: 45px;
+    font-weight: 300;
+    font-family: revert;
+    margin-bottom: 28px;
+}
+.title
+{
+    padding-left: 48px;
+}
+.title h3
+{
+    margin-left: 50px;
+}
+.title p
+{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.title ul
+{
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.title li
+{
+    display: inline ;
+    font-size: 30px;
+    list-style: none;
+}
+.title li a
+{
+    color: #424242;
+    padding: 10px;
+
+}
+.title li a svg
+{
+    width: 27px;
+
+}
+
+.about  li
+{
+list-style-type: none;
+font-size: 20px;
+}
+.about li a
+{
+    color: #424242;
+    text-decoration: solid;
+    padding-left: 2px;
+}
+.about li a:hover
+{
+    color: darkorange;
+}
+.services li
+{
+    font-size: 20px;
+    list-style-type: none;
+}
+.services li a 
+{
+    color: #424242;
+    text-decoration: solid;
+    padding-left: 2px;
+}
+.services li a:hover
+{
+    color: darkorange;
+}
+.others li
+{
+    font-size: 20px;
+    list-style-type: none;
+}
+.others li a{
+    color: #424242;
+    text-decoration: solid;
+    padding-left: 2px;
+}
+.others li a:hover
+{
+    color: darkorange;
+
+}
